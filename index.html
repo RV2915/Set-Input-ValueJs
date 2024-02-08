@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+    <body>
+        <div class="container">
+            <div class="main-container">
+                <h1>set input value</h1>
+                First Number<br>
+                <input id="num1" type="text" name="num1">
+                <br>
+                Second Number:<br>
+                <input id="num2" type="text" name="num2">
+                <br><br>
+                <!-- <input type="button" value="Do Maths" onclick="doMath();" /> -->
+                <button onclick="doMath()">set value</button>
+                <span id="demo"></span>
+            </div>
+        </div>
+
+        <script>
+
+            function doMath() {
+                var numOne = document.getElementById('num1').value;
+                var numTwo = document.getElementById('num2').value;
+                var theProduct = numOne + numTwo;
+
+                document.getElementById('demo').innerHTML = theProduct;
+
+
+            }
+
+        </script>
+    </body>
+
+</html>

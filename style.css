@@ -1,0 +1,63 @@
+body {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(red, orange, yellow);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+
+}
+
+button {
+    width: 200px;
+    padding: 10px;
+    color: #fff;
+    background-color: transparent;
+    border: 3px solid #fff;
+    border-radius: 20px;
+    /* border: none; */
+    outline: none;
+    transition: 0.4s ease-in-out;
+}
+
+button:hover {
+    width: 180px;
+}
+
+#demo {
+    color: #fff;
+    font-size: 30px;
+}
+
+input {
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    background: transparent;
+    border: 3px solid #fff;
+    border-radius: 20px;
+    /* border: none; */
+    outline: none;
+
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    width: 500px;
+    /* background: linear-gradient(red, orange, yellow); */
+    border: 3px solid #fff;
+    border-radius: 10px;
+    background: transparent;
+    backdrop-filter: blur(100px);
+}
